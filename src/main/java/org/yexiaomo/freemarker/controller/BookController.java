@@ -33,6 +33,7 @@ public class BookController {
 
         
         books.add(new Book(3, "水浒传11", "施耐庵11"));
+        books.add(new Book(3, "230", "鲁班大师"));
 
         model.addAttribute("books", books);
         return "book";
