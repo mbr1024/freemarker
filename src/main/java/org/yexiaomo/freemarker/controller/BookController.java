@@ -31,6 +31,7 @@ public class BookController {
         books.add(new Book(4, "红楼梦", "曹雪芹"));
         books.add(new Book(3, "水浒传", "施耐庵"));
         books.add(new Book(3, "水浒传11", "施耐庵11"));
+        books.add(new Book(3, "水浒传1122", "施耐庵1122"));
         model.addAttribute("books", books);
         model.addAttribute("username", "yexiaomo");
         return "book";
